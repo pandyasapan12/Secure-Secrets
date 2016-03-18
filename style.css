@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
+#logo{
+	width: 62px;
+	height: 52px;
+	position: relative;
+	top: -15px;
+}
+
+
+/* Top Container style */
+#top-container{
+	position: relative;
+    background: #000 url("img/img8.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#topRow{
+	margin-top: 80px;
+	text-align: center;
+}
+
+#topRow h1{
+	font-size: 400%;
+	color: black;
+	font-weight: bold;
+	font-family: 'Pacifico', cursive;
+}
+
+.lead{
+	font-weight: bold;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.quote{
+	font-size: 200%;
+}
+
+.note{
+	font-size: 1.4em;
+	color: black;
+	font-weight: bold;
+}
+
+.marginTop{
+	margin-top: 15px;
+}
+
+.signUp {
+    text-align:center;
+    display:inline-block;
+}
+
+/* Second Container Style */
+
+.center{
+	text-align: center;
+}
+
+.title{
+	font-size: 300%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+.boldFont{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.marginBottom{
+	margin-bottom: 50px;
+}
+
+.secondContainer{
+	background-color: #DCDCDC;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+}
+
+
+
+/* Footer Section*/
+
+#footer{
+	background-color: #778899;
+	width: 100%;
+}
+
+.footerTitle{
+	font-weight: bold;
+	color: black;
+	margin-top: 40px;
+	font-size: 300%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.appStore{
+	background-color: #778899;
+}
+
+#storeLogo{
+	width: 120px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+/* Back to top logo */
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: black url("img/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
